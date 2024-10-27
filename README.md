@@ -11,7 +11,7 @@ It was announced and released in December 2022.
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-SoC     | Mediatek Dimensity 8200 (MT6896)
+SoC     | Mediatek Dimensity 8200
 CPU     | Octa-core (4x3.10 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)
 GPU     | Mali-G610 MC6
 Memory  | 8/12GB, LPDDR5
