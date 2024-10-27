@@ -1,0 +1,15 @@
+prebuilt_etc {
+    name: "init.project.rc",
+    src: "init.project.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+cc_library_static {
+    name: "libinit_rembrandt",
+    srcs: ["init_rembrandt.cpp"],
+    whole_static_libs: ["libbase"],
+    header_libs: ["libbase_headers"],
+    recovery_available: true,
+    include_dirs: ["system/core/init"]
+}
