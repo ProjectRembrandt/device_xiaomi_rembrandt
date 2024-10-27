@@ -29,5 +29,5 @@ https://review.lineageos.org/c/400964
 https://review.lineageos.org/c/400894
 https://github.com/bengris32/android_hardware_lineage_interfaces/commit/cacfae73e44d18f8bba2bbe327d5c0d5cbafe4f1
 
-## GPU fix patch(phh commits):
+## GPU fix patches:
 https://github.com/TrebleDroid/platform_frameworks_native/commit/b4302826aba1f1c188eca2652aca0c721e591e9b
