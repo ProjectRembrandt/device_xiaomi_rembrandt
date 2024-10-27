@@ -32,6 +32,3 @@ persist.sys.sf.color_saturation=1.0
 persist.sys.sf.native_mode=2
 ro.surface_flinger.set_idle_timer_ms=0
 ro.surface_flinger.use_content_detection_for_refresh_rate=false
-
-# Graphics
-persist.sys.phh.mtk_ged_kpi=1
