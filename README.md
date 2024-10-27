@@ -23,3 +23,11 @@ Display | AMOLED, 6.67 inches, 1440 x 3200 pixels
 ## Device Picture
 
 ![Redmi K60E](https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1672037146.81276139.png)
+
+## Required external patches:
+https://review.lineageos.org/c/400964
+https://review.lineageos.org/c/400894
+https://github.com/bengris32/android_hardware_lineage_interfaces/commit/cacfae73e44d18f8bba2bbe327d5c0d5cbafe4f1
+
+## GPU fix patch(phh commits):
+https://github.com/TrebleDroid/platform_frameworks_native/commit/b4302826aba1f1c188eca2652aca0c721e591e9b
