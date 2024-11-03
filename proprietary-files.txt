@@ -551,7 +551,10 @@ vendor/etc/sn100u_pnx_pcv.pnscr
 vendor/etc/sn100u_pnx_sst.pnscr
 
 # Sensors
+vendor/etc/elliptic_sensor.xml
+vendor/lib64/hw/sensors.elliptic@2.0.so
 vendor/lib64/hw/sensors.mediatek.V2.0.so;SYMLINK=vendor/lib64/hw/sensors.mt6895.so
+vendor/lib64/libnotifyaudiohal.so
 
 # Thermal
 vendor/bin/mi_thermald
@@ -559,6 +562,7 @@ vendor/etc/thermal-4k.conf
 vendor/etc/thermal-camera.conf
 vendor/etc/thermal-chg-only.conf
 vendor/etc/thermal-class0.conf
+vendor/etc/thermal-dolbyvision.conf
 vendor/etc/thermal-huanji.conf
 vendor/etc/thermal-map.conf
 vendor/etc/thermal-mgame.conf
@@ -574,10 +578,16 @@ vendor/etc/thermal-per-video.conf
 vendor/etc/thermal-phone.conf
 vendor/etc/thermal-region-map.conf
 vendor/etc/thermal-tgame.conf
-vendor/etc/thermal-videochat.conf
 vendor/etc/thermal-video.conf
+vendor/etc/thermal-videochat.conf
+vendor/etc/thermal-yuanshen.conf
 vendor/etc/thermald-devices.conf
 
+# Payment Apps
+vendor/app/MipayService/MipayService.apk
+
+# Soter (Tencent)
+vendor/app/SoterService/SoterService.apk
 
 # Vibrator
 vendor/firmware/aw8697_haptic.bin
@@ -585,3 +595,4 @@ vendor/firmware/aw8697_rtp_1.bin
 
 # Wi-Fi
 vendor/firmware/wifi.cfg
+
